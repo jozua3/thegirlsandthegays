@@ -1,0 +1,324 @@
+/*
+alle pagina's 
+*/ 
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 7em;
+    font-size: 1.3em;
+    align-items: center;
+    background: linear-gradient(#CC8BAB, #e4c7d5, #CC8BAB);
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    align-items: center;
+}
+
+main p {
+    text-align: center;
+    color: #ffffff;
+}
+
+header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dab8ca;
+    list-style: none;
+    height: 50px;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+ 
+    
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    font-size: large;
+   
+}
+
+.spacer {
+    width: 6.25em;
+    height: 6.25em;
+
+}
+.logogeng{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+
+nav a{
+    color: #8D1A60;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+nav a:hover{
+    color: #ffffff ;
+    font-size: large;
+    font-size: 1.5em ;
+}
+
+.onhome{ 
+    text-decoration: underline;
+}
+
+
+.onafleveringen{
+    text-decoration: underline;
+}
+
+
+.onoverons{
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.bold{
+    font-weight: 900;    
+}
+.playbutton{
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 0%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    color: #ffffff;
+    justify-content: center;
+    background-color: #9d6d8474;
+    width: 100%;    
+}
+
+footer img{
+    width: 2em;
+    height: 2em;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5em;
+}
+
+address a, p{
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    
+   
+}
+
+.icoontjes{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    
+}
+
+.logofooter{
+    width: 10em;
+    height: 10em;
+}
+
+/*
+Home pagina
+*/
+.achtergrondfoto{
+    display: flex;
+    justify-content: center;
+}
+
+.recenteaflv img{
+    width: 380.7px; 
+    height:220px;
+
+}
+
+.achtergrondfoto{
+    width: 500px;
+    height: 500px;
+    
+}
+
+main ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+}
+
+.kleurrecent{
+    color: #8D1A60;
+    font-weight: bold;
+}
+
+.kleuraflv1{
+    color: #8D1A60;
+    font-weight: bold;
+}
+
+.kleurpop{
+    color: #8D1A60;
+    font-weight: bold;
+
+}
+
+.murchandise{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    justify-content: center;
+    
+}
+
+.murchandise p{
+    color: #8D1A60;
+    font-weight: bold;
+}
+
+.murchandise img{
+    width: 15em;
+    height: 15em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    transition: transform 0.4s ease;
+}
+
+.murchandise img:hover {
+    border:  solid #8D1A60;
+    transform: scale(1.1);
+}
+
+
+/*
+On afleveringen
+*/
+
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: #00000068;
+    align-items: center;
+    width: 84em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.25em;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+article p{
+    text-align: left;
+    width: 70em;
+}
+
+.vaag{
+    opacity: 50%;    
+}
+
+article img{
+    width: 8em;
+    height: 8em;
+    border-radius: 0.3em;
+    
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+}
+
+
+/*
+On over ons.
+*/
+
+.achtergrond1{
+    background-color: #AD82BC;
+    height: 17em;
+    width: 78em;
+}
+
+.achtergrond2{
+    background-color:  #6B3AB6;;
+    height: 17em;
+    width: 78em;
+}
+
+.achtergrond3{
+    background-color: #A6407E;
+    height: 17em;
+    width: 78em
+}
+
+.overons{
+    display: flex;
+    flex-direction: row;
+    background-color: #00000068;
+    height: 14.8em;
+    width: 75em;
+    gap: 20em;
+    align-items: center;
+    border-radius: 0.25em;
+    justify-content: center;  
+}
+
+.overons p{
+    width: 30em;
+   
+}
+
+.textoverons{
+    width: 60em;
+}
+
+.achtergrond1 img, .achtergrond2 img, .achtergrond3 img{
+    width: 10em;
+    height: 14em;
+    
+}  
+
+
+/*
+https://www.w3schools.com/tags/tag_center.ASP 
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image 
+Ik heb de PowerPoints uit de lessen ook: https://dlo.mijnhva.nl/d2l/le/content/609342/Home 
+voor opacity: https://www.w3schools.com/cssref/css3_pr_opacity.php 
+*/ 
